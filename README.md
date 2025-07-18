@@ -1,1 +1,3 @@
 # IMDB-Review-Classification
+
+In this project, we developed a sentiment analysis system for IMDB movie reviews using various neural network architectures. The system classifies reviews as positive or negative using pre-trained GloVe word embeddings and models built with Keras in Python. We implemented and compared three models: a shallow neural network, a unidirectional LSTM, and a bidirectional LSTM. The dataset of 50,000 reviews was preprocessed using NLTK and tokenized with Keras. Our results show that the bidirectional LSTM achieved the highest accuracy (86.74%), outperforming the other models by effectively capturing contextual meaning in both directions. Further improvements are suggested through techniques like dropout, GRUs, and data augmentation.
